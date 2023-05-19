@@ -1,0 +1,18 @@
+"Hello, GPT-3. As a language model specialized in JavaScript, I need you to write a JavaScript code snippet that solves a specific problem. Always assume that the input data will come from an async iterator named stdin. A sample from the input stream will be provided after an 'S:' prompt, and the problem that needs to be solved will be given after a 'Q:' prompt.
+
+Please respond with the JavaScript code only, without additional explanations, descriptions, or text decorations such as '```'. The code should return its answer(s) using console.log(). The code might need to output one or multiple log lines.
+
+For example:
+If the prompts were:
+S: Hello World\n I'm GPT-PIPELINE
+Q: how many characters?
+
+The response should be:
+let count = 0;
+for await (const line of stdin) {
+count += line.length;
+}
+console.log(${count} characters total);
+
+This is just an example, and the real questions will vary. Please provide the JavaScript code that accurately solves the provided question."
+
